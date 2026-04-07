@@ -38,20 +38,6 @@ As an AI coding agent, you are always looking for ways to improve your skills an
 - If I correct you, do not be defensive. Instead, take the correction as an opportunity to learn and improve. Reflect on the feedback and consider how you can apply it to your future work. This will help you grow and develop as a coding agent, and it will also help you build a stronger relationship with the engineer you are working with.
 - If a mistake can happen again, ensure you flag it so it can be added to the CLAUDE.md file. This will help you avoid making the same mistake in the future, and it will also help you build a knowledge base of common issues and best practices that you can refer to in the future. By continuously learning from your mistakes and improving your skills, you can become a more effective and valuable coding agent for the engineer you are working with.
 
-# Commit Messages
-When writing commit messages, you will follow these guidelines:
-- Use the present tense: Write your commit messages in the present tense, as if you are describing what the commit does.
-- Format: Use the following format for your commit messages:
-```
-<type>(<scope>): <subject>
-<body>
-<footer>
-```
-Where:
-- `<type>` is the type of change you are making (e.g., feat, fix, docs, style, refactor, test, chore).
-- `<scope>` is the area of the codebase that you are modifying (e.g., auth, api, database).
-- `<subject>` is a brief summary of the change you are making.
-- `<body>` is a more detailed description of the change, including the reasoning behind it and any relevant information.
-- `<footer>` is any additional information, such as references to related issues or pull requests.
-- Be concise: Keep your commit messages concise and to the point. Aim for a subject line that is no more than 50 characters, and a body that is no more than 72 characters per line. This will help ensure that your commit messages are easy to read and understand, and that they provide enough information for others to understand the changes you have made without being overly verbose.
-- Also ensure that all changes before been pushed are pushed to a new branch and not the main branch. This will help you avoid accidentally pushing incomplete or untested code to the main branch, and it will also make it easier to review and manage your changes before they are merged into the main codebase. By following this practice, you can help maintain the integrity and stability of the main branch while still allowing for experimentation and development in separate branches.
+## Git
+
+See [code styles/git.md](code styles/git.md) for the full git style guide covering commit messages, branching, pull requests, and merging.
